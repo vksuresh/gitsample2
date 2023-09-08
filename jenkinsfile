@@ -1,2 +1,16 @@
-Added jenkins file:wq
+node{
+
+  stage('IntegrationTest') {
+echo 'Running Integration Test'
+  }
+  
+    stage('APITest') {
+echo 'Running API Test'
+  }
+  
+      stage('E2ETest') {
+echo 'Running E2E Test'
+  }
+
+}
 
